@@ -1,7 +1,6 @@
 require 'bundler'
 require 'sinatra/base'
 require 'sinatra/cross_origin'
-require './movies_list'
 Bundler.require()
 
 class Movies < Sinatra::Base
